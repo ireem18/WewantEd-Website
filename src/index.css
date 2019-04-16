@@ -55,12 +55,7 @@ button.ghost {
 }
 
 form {
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 50px;
+  padding: 0;
   height: 100%;
   text-align: center;
 }
@@ -75,6 +70,9 @@ input {
 
 .social-container {
   margin: 20px 0;
+}
+.Frame{
+  background-color:#1d1e22;
 }
 
 .social-container a {
@@ -102,15 +100,18 @@ input {
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out;
+ 
 }
 
 .sign-in-container {
+  
   left: 0;
   width: 50%;
   z-index: 2;
 }
 
 .sign-up-container {
+  
   left: 0;
   width: 50%;
   opacity: 0;
@@ -118,10 +119,12 @@ input {
 }
 
 .container.right-panel-active .sign-in-container {
+  
   transform: translateX(100%);
 }
 
 .container.right-panel-active .sign-up-container {
+  
   transform: translateX(100%);
   opacity: 1;
   z-index: 5;
@@ -158,9 +161,10 @@ input {
 }
 
 .overlay {
-  background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-image:url("./issue/a.png");
+  background-color:#f18d03; 
+  background: -webkit-linear-gradient(to right, #f18d03, #f18d03);
+  background: linear-gradient(to right, #f18d03, #f18d03);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -178,6 +182,7 @@ input {
 }
 
 .overlay-panel {
+ 
   position: absolute;
   display: flex;
   align-items: center;
@@ -193,18 +198,26 @@ input {
 }
 
 .overlay-left {
+   background-image:url("./issue/a.png");
   transform: translateX(-20%);
+    
 }
 
 .container.right-panel-active .overlay-left {
+  background-image:url("./issue/a.png");
   transform: translateX(0);
 }
 
 .overlay-right {
+  background-image:url("./issue/a.png");
+  background-color:#f18d03; 
   right: 0;
   transform: translateX(0);
+  
 }
 
 .container.right-panel-active .overlay-right {
   transform: translateX(20%);
+  
+  
 }

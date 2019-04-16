@@ -1,0 +1,76 @@
+.FrameLogin{
+  background-color:#1d1e22;
+}
+.Logo1{
+  width: 307px;
+  height: 78px;
+  object-fit: contain;
+  margin-top:250px;
+  margin-left:130px;
+  
+}
+.Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry {
+  width: 425px;
+  height: 75px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  margin-left:105px;
+  margin-bottom:0px;
+  margin-top: 2px;
+  
+}
+.Lorem-Ipsum-has-been-the-industrys-standard-dummy-text-ever-since-the-1500s-when-an-unknown-printer-took-a-galley-of-type-it-specimen-book {
+  width: 425px;
+  height: 75px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  margin-left:105px;
+  margin-bottom:0px;
+  margin-top: 5px;
+}
+
+.Inputs{
+  margin-top:10px;
+  margin-right:20px;
+
+}
+
+.Input-Base {
+  width: 425px;
+  height: 19px;
+  border: solid 1px #2b2c30;
+  background-color: #1d1e22;
+  color:white;
+  
+}
+.baseButton {
+  width: 455px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0 rgba(19, 31, 21, 0.1);
+  background-color:#f89f23;
+  border-color:#f89f23;
+}
+.button{
+  width: 425px;
+  height: 50px;
+  border: solid 1px #2b2c30;
+  border-radius:4px;
+  margin-right: 50px;
+  background-color: #f89f23;
+}

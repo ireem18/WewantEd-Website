@@ -25,8 +25,8 @@ export default class Panel extends Component {
         }
         id="container"
       >
-        <Signup />
-        <Login />
+        <Signup onButtonClick={this.handleButtonClick}/>
+        <Login onButtonClick={this.handleButtonClick} />
         <Overlay onButtonClick={this.handleButtonClick} />
       </div>
     );
